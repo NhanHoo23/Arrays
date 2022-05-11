@@ -39,6 +39,8 @@
                 result.push(str[i].toLowerCase())
             } else if(Lower.indexOf(str[i]) >= 0) {
                 result.push(str[i].toUpperCase())
+            } else {
+                result.push(str[i])
             }
         }
         console.log(result.join(""));
